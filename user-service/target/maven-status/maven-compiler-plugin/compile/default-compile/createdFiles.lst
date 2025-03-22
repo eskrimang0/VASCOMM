@@ -1,0 +1,15 @@
+app\user_service\entity\User$UserBuilder.class
+app\user_service\service\UserService.class
+app\user_service\repository\RoleRepository.class
+app\user_service\entity\Role.class
+app\user_service\dto\RegisterRequest.class
+app\user_service\dto\LoginResponse.class
+app\user_service\security\SecurityConfig.class
+app\user_service\security\JwtAuthFilter.class
+app\user_service\UserServiceApplication.class
+app\user_service\security\JwtUtil.class
+app\user_service\controller\AuthController.class
+app\user_service\dto\LoginRequest.class
+app\user_service\entity\User.class
+app\user_service\repository\UserRepository.class
+app\user_service\seeder\DataSeeder.class
