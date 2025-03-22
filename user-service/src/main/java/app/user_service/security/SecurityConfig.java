@@ -19,8 +19,8 @@ public class SecurityConfig {
         http
                 .csrf(csrf -> csrf.disable())
                 .authorizeHttpRequests(auth -> auth
-                        .requestMatchers("/api/auth/**").permitAll()  // register & login bebas akses
-                        .anyRequest().authenticated()                 // lainnya butuh token
+                        .requestMatchers("/api/auth/**").permitAll() 
+                        .anyRequest().authenticated()                 
                 )
                 .addFilterBefore(jwtAuthFilter, UsernamePasswordAuthenticationFilter.class);
 
